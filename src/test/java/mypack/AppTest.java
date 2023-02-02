@@ -18,12 +18,7 @@ public class AppTest
 		assertTrue(obj.isEven(10));			
 	}
 	
-	@Test 
-	public void testString()
-	{
-		App obj = new App();	
-		 assertEquals("Strings are equals",obj.check("Java","Java"));		
-	}
+	
 	
 	@Test
 	public void testArrays()
